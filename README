@@ -1,0 +1,7 @@
+An interpreter for a made up assembly langauge called PBRAIN12, implemented in C. 
+
+Instruction code for PBRAIN can be found listed in the pdf provided. 
+
+This intpreter prints out what it is doing at each state, and the entire memory block upon completion. 
+
+An example program for the fibonacci sequence has been provided. 
