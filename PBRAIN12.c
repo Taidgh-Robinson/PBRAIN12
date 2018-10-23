@@ -129,8 +129,6 @@ main (int argc, char *argv[])
   upto = program_line;
   printf ("PROGRAM COPIED INTO VM MEMORY!! \n");
 
-  //Now we are ready to execute instructions! Yehawwww!
-
   int Done = 0;
   PC = 0;			//program counter, always starts at 0
 
@@ -147,8 +145,6 @@ main (int argc, char *argv[])
 
       printf ("In Program Execution Loop: New PC is %d OPCODE IS %d \n\n", PC,
 	      opcode);
-
-      /* You need to put in the case statements for the remaining opcodes */
 
       switch (opcode)
 	{
